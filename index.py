@@ -20,7 +20,7 @@ import os
 file=list()
 
 
-import csv
+
 
 
 with open('employeelist.csv') as csv_file:
@@ -32,5 +32,7 @@ with open('employeelist.csv') as csv_file:
 
 os.mkdir('papka_dlya_sotrudnikov')
 for x in file:
-    os.mkdir ("./papka_dlya_sotrudnikov/"+x)
+    os.mkdir("./papka_dlya_sotrudnikov/"+x)
+
+#else if
 
